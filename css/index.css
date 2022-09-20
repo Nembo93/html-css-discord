@@ -116,6 +116,7 @@ header, header a{
 }
 .nav button{
     background-color: white;
+    color: black;
 }
 .header-bottom{
     display: flex;
@@ -189,6 +190,10 @@ section{
 
 
 /*/// FOOTER ///*/
+.fo-col-big, .fo-col-small{
+    margin-top: 30px;
+}
+
 footer{
     background-color: rgb(3, 13, 41);
 }
@@ -203,6 +208,23 @@ footer{
 .fo-col-big{
     background-color: rgb(3, 13, 41);
 }
+.sel-lang{
+    margin-top: 20px;
+    color:white;
+    background-color: rgb(3, 13, 41);
+    border: none;
+}
+.flag-ita{
+    width: 20px;
+}
+.icon{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+}
+
+
+
 .fo-col-small{
     background-color: rgb(3, 13, 41);
 }
@@ -218,6 +240,8 @@ footer{
 }
 .fo-col-small li{
     list-style-type: none;
+    margin: 10px 0 10px 0;
+    font-size: 12px;
 }
 .fo-col-small a{
     color: white;
@@ -228,13 +252,23 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    border: solid 2px lightgray;
+    /* border: solid 2px lightgray; */
 }
 .foo-nav{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    background-color: orange;
+    align-items: center;
+    background-color: rgb(3, 13, 41);
     width: 60%;
+}
+.fo-bot{
+    background-color: #7289DA;
+    color: white;
+    
+}
+.disc-logo{
+    width: 120px;
+    color: white;
 }
 
