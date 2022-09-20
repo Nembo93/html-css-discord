@@ -27,13 +27,16 @@
 
 /* header */
 .debug .header-top{
-    height: 40px;
-    background-color: aqua;
+    height: 20%;
+    background-color: blue;
 }
-.debug .nav{
+/* .debug .nav{
     background-color: orange;
     width: 60%;
-}
+} */
+/* .debug .big-nav{
+    width: 60%;
+} */
 .debug .header-bottom{
     background-color: blue;
 }
@@ -76,6 +79,17 @@
     background-color: orange;
     width: 60%;
 }
+/*/// FINE DEBUG ///*/
+
+/* COMMON */
+a{
+    text-decoration: none;
+}
+
+/* TYPOGRAPHY */
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /*/// HEADER ///*/
 .header-top{
@@ -88,12 +102,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
-.mini-nav{
-    width: 20%;
+    width: 80%;
 }
 .big-nav{
     width: 60%;
+    display: flex;
+    justify-content: space-between;
 }
 .header-bottom{
     display: flex;
