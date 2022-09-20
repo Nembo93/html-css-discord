@@ -85,6 +85,10 @@
 a{
     text-decoration: none;
 }
+button{
+    border-radius: 20px;
+    padding: 8px;
+}
 
 /* TYPOGRAPHY */
 body{
@@ -121,7 +125,7 @@ body{
 }
 .header-box{
     max-width: 50%;
-    max-height: 50%;
+    max-height: 70%;
     text-align: center;
 }
 .header-box h1{
