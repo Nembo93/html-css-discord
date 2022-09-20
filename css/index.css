@@ -9,9 +9,9 @@
 /*/// DEBUG ///*/
 
 /* border */
-.bord{
+/* .bord{
     border: dashed 1px black;
-}
+} */
 .debug .fo-col-big{
     border: dashed 1px black;
 }
@@ -119,6 +119,9 @@ header, header a{
     display: flex;
     justify-content: space-between;
 }
+.nav button{
+    background-color: white;
+}
 .header-bottom{
     display: flex;
     justify-content: center;
@@ -145,6 +148,7 @@ header, header a{
     color: white;
 }
 .header-box .first-bot{
+    background-color: white;
     color: black;
 }
 .header-box button{
