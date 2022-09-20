@@ -1,0 +1,139 @@
+/*/// RESET ///*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*/// DEBUG ///*/
+
+/* border */
+.bord{
+    border: dashed 1px black;
+}
+.debug .fo-col-big{
+    border: dashed 1px black;
+}
+.debug .fo-col-small{
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+    border-left: dashed 1px white;
+    border-right: dashed 1px white;
+}
+.debug .foo-top :last-child{
+    border-right: dashed 1px black;
+}
+
+/* header */
+.debug .header-top{
+    height: 40px;
+    background-color: aqua;
+}
+.debug .nav{
+    background-color: orange;
+    width: 60%;
+}
+.debug .header-bottom{
+    background-color: blue;
+}
+.debug .header-box{
+    background-color: violet;
+    width: 40%;
+    height: 150px;
+}
+/* main */
+.debug .col-big{
+    width: 40%;
+    height: 200px;
+    background-color: aqua;
+}
+.debug .col-small{
+    width: 20%;
+    height: 200px;
+    background-color: pink;
+}
+.debug .col-main{
+    width: 60%;
+    height: 300px;
+    background-color: green;
+}
+/* footer */
+.debug .fo-col-big{
+    background-color: lightcoral;
+    width: 20%;
+    height: 250px;
+}
+.debug .fo-col-small{
+    background-color: aquamarine;
+    width: 10%;
+    height: 250px;
+}
+.foo-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: orange;
+    width: 60%;
+}
+
+/*/// HEADER ///*/
+.header-top{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.mini-nav{
+    width: 20%;
+}
+.big-nav{
+    width: 60%;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*/// MAIN ///*/
+main > section:nth-child(2n){
+    background-color: lightgray;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.col-big{
+    
+}
+.col-small{
+   
+}
+
+/*/// FOOTER ///*/
+footer{
+    background-color: gray;
+}
+/* top */
+.foo-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+/* bottom */
+.foo-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border: solid 2px lightgray;
+}
+
