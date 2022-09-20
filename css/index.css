@@ -153,6 +153,7 @@ header, header a{
 /*/// MAIN ///*/
 main > section:nth-child(2n){
     background-color: lightgray;
+    flex-direction: row-reverse;
 }
 section{
     display: flex;
@@ -162,9 +163,10 @@ section{
 .col-big{
     
 }
-.img-1sect{
+.img-sect{
     width: 100%;
 }
+
 .col-small{
    padding: 2%;
 }
