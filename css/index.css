@@ -48,19 +48,19 @@
 /* main */
 .debug .col-big{
     width: 30%;
-    /* height: 300px; */
-    background-color: aqua;
+    /* height: 300px;
+    background-color: aqua; */
 }
 .debug .col-small{
     width: 20%;
-    height: 300px;
-    background-color: pink;
+    /* height: 300px;
+    background-color: pink; */
 }
-.debug .col-main{
+/* .debug .col-main{
     width: 60%;
-    height: 300px;
+    height: 500px;
     background-color: green;
-}
+}  */
 /* footer */
 .debug .fo-col-big{
     background-color: lightcoral;
@@ -166,12 +166,20 @@ section{
 .img-sect{
     width: 100%;
 }
+.img-sect-big{
+    width: 60%;
+}
 
 .col-small{
    padding: 2%;
 }
 .col-small h2{
     margin-bottom: 3%;
+}
+.col-main{
+    width: 60%;
+    height: 500px;
+    text-align: center;
 }
 
 
