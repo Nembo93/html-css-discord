@@ -183,6 +183,16 @@ section{
     height: 500px;
     text-align: center;
 }
+.box-sfondo-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .col-main > button{
     background-color: #7289DA;
     color: white;
